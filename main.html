@@ -8,7 +8,7 @@
 
 <body>
 	<!-- the entire body must be written by student -->
-	<form>
+	<form method="post">
 		<div>
 			<label for="name"> Name* </label>
 			<input type="text" id ="name" placeholder ="Name" required>
@@ -32,7 +32,27 @@
 				<option>Mercedez</option>
 			</select>
 		</div>
-		
+		<div>
+			<label for="age">Age*</label>
+			<input type="number" id="age" placeholder="Age" required>
+		</div>
+		<div>
+			<label for="dob">DOB*</label>
+			<input type="date" id="dob" required>
+		</div>
+		<div>
+			<label for="phone">Phone number </label>
+			<input type="number" id="phone" placeholder="xxx-xxx-xxxx">
+		</div>
+		<div>
+			<label for="password">Password*</label>
+			<input type="password" id="password" placeholder="Password" required>
+		</div>
+		<div>
+			<label for="checkbox">Checkbox*</label>
+			<input type="checkbox" id="checkbox" required>I agree to the TOS
+		</div>
+		   <input type="button" value="submit">
 	</form>
     <script type="text/javascript" src="./script.js">
 </script>
